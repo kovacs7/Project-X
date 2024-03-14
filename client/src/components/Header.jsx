@@ -23,18 +23,26 @@ export default function Header() {
           />
         </form>
         <div className="hidden sm:flex flex-wrap items-center gap-3 ">
-          <Button variant="secondary" size="sm">
-            <Link to="/">Home</Link>
-          </Button>
-          <Button variant="secondary" size="sm">
-            <Link to="/about">About</Link>
-          </Button>
-          <Button variant="secondary" size="sm">
-            <Link to="/profile">Profile</Link>
-          </Button>
-          <Button variant="secondary" size="sm">
-            <Link className="items-center flex gap-2" to="/sign-in"><FaHouseUser /> Sign In</Link>
-          </Button>
+          <Link to="/">
+            <Button variant="secondary" size="sm">
+              Home
+            </Button>
+          </Link>
+          <Link to="/about">
+            <Button variant="secondary" size="sm">
+              About
+            </Button>
+          </Link>
+          <Link to="/profile">
+            <Button variant="secondary" size="sm">
+              Profile
+            </Button>
+          </Link>
+          <Link to="/sign-in">
+            <Button variant="secondary" size="sm">
+              <span className="items-center flex gap-2" to="/sign-in"><FaHouseUser /> Sign In</span>
+            </Button>
+          </Link>
 
         </div>
       </div>
