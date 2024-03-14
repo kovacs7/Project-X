@@ -8,7 +8,7 @@ export default function Header() {
     <div className="flex flex-wrap justify-between items-center bg-gradient-to-r from-violet-300 via-indigo-300 to-violet-300 p-3">
         <Link to="/">
           <h1 className="text-xl sm:text-3xl flex flex-wrap">
-            <span className="font-semibold">Urban</span>
+            <span className="font-bold">Urban</span>
             <span className="font-light flex">Nest
               <FaRegistered className="size-3"/>
             </span>
